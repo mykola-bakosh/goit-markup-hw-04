@@ -210,10 +210,9 @@ a {
     gap: 24px;
     display: flex;
     justify-content: center;}
-}
-.comand-svg-a:hover,
-.comand-svg-a:focus {
-  background-color: #404bbf;
+
+.comand-svg-a:hover, .comand-svg-a:focus{
+    background-color: #404bbf;
 }
 .test-class {
   display: flex;
@@ -304,12 +303,13 @@ a {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .team-link {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   overflow: hidden;
-  ox-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(49, 46, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
